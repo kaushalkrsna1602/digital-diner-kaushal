@@ -63,21 +63,20 @@ MongoDB scales horizontally and is a great fit for modern, high-speed web applic
 ### 🔧 Backend Setup
 
 
-git clone https://github.com/kaushalkrsna1602/digital-diner-backend
-cd digital-diner-backend
+git clone https://github.com/kaushalkrsna1602/digital-diner-kaushal
+cd digital-diner-kausahl/backend
 npm install
 
-Create .env file in /server with:
+Create .env file in /backend with:
 PORT=5000
-MONGO_URI=mongodb://localhost:27017/digital-diner
+MONGO_URI="mongodb+srv://kaushalkrkr:9QVMeRTF45aPhdwK@cluster0.vuu6w.mongodb.net/digitalDiner?retryWrites=true&w=majority&appName=Cluster0"
 
 Start Server : npm run dev
 
 
 ### 🔧 Frontend Setup
 
-git clone https://github.com/kaushalkrsna1602/digital-diner-frontend
-cd digital-diner-frontend
+cd digital-diner-kaushal/frontend
 npm install
 npm run dev 
 
@@ -99,4 +98,5 @@ npm run dev
 Author : 
 
 Kaushal Kumar
+
 Internship Assessment Submission for Eatoes
